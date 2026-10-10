@@ -1,0 +1,1208 @@
+
+MIRA CHARACTER MODE SYSTEM — LOCKED
+
+ACTOR_YOO_MIRA is one character identity with three approved production references:
+- ACTOR_YOO_MIRA_NORMAL — ACTOR_YOO_MIRA_NORMAL.png — base Option 4 identity.
+- ACTOR_YOO_MIRA_FUNNY — ACTOR_YOO_MIRA_FUNNY.png — finalized Funny Option 3; anime/manga mini/chibi comedic treatment.
+- ACTOR_YOO_MIRA_RAGE — ACTOR_YOO_MIRA_RAGE.png — finalized anger/battle-intensity treatment.
+
+Identity continuity rule:
+All three references depict the same Yoo Mira. Hair colour/style cues, glasses, clothing identity, and recognizable character identity must remain consistent. Only the approved mode-specific expression/proportion treatment may change.
+
+Shot assignments:
+- FUNNY: 1B, 1C, 1F, 1G, 3D, 3E, 3F
+- RAGE: 2C, 2D, 2E, 2F, 2G, 2H, 2I
+- NORMAL: all other Yoo Mira shots.
+
+MANGAGLIDE — MASTER SHOT SCRIPT — AUTOMATION READY
+The God of High School — Video 4 / Episode 3
+Narrator: Christopher
+Canvas: 1920 x 1080 | Aspect ratio: 16:9 | FPS: 30
+AUTHORITATIVE TIMING: integer frames; start-inclusive, end-exclusive intervals.
+Total frames: 8153 | Final end timecode: 04:31:23 | Source MP3 duration: 271.752s
+Frame rounding rule: actual MP3/decimal boundaries converted to nearest frame using half-up rounding; frame indices are authoritative for automation.
+Approved story, narration, visual decisions, and CapCut motion intent are preserved from the final Video 4 master script.
+
+ASSET READINESS: PASSED — all mandatory approved Video 4 references are materialized as Python-accessible PNG files.
+
+==============================================================================
+SHOT 1A — Meet Yoo Mira
+Yoo Mira mode: NORMAL
+Timeline: 00:00:00–00:07:19 @30fps | frames [0, 229) | duration 229 frames (7.633s)
+Source decimal local timing: 0:00.000-0:07.633
+Speechma narration: “Another fighter is about to enter the God of High School. Her name is Yoo Mira. A talented swordswoman.”
+Story purpose: Introduce Mira as the next important fighter and establish her as a swordswoman.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+16:9 medium-wide character introduction. Yoo Mira is the clear focal subject, wearing her exact approved design and carrying the exact approved wooden bokken. Use a clean manga/manhwa composition with an ordinary school-age environment suggested softly in the background rather than creating a new recurring school location. Calm, serious expression; grounded introduction, not a glamour pose.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1A (Meet Yoo Mira). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Introduce Mira as the next important fighter and establish her as a swordswoman. Visual composition: 16:9 medium-wide character introduction. Yoo Mira is the clear focal subject, wearing her exact approved design and carrying the exact approved wooden bokken. Use a clean manga/manhwa composition with an ordinary school-age environment suggested softly in the background rather than creating a new recurring school location. Calm, serious expression; grounded introduction, not a glamour pose. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'YOO MIRA.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text="YOO MIRA."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +207f (6.900s), Scale 104%, X -18, Y -8
+  - KF3: +229f (7.633s), Scale 104%, X -18, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.733 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1B.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/yoo_mira_character_intro - Video 4 - Part 1 - Shot A.png
+Audio boundary verification: PASSED — Boundary 7.633s lies inside detected silence 7.135-8.130s.
+Validation status: READY
+==============================================================================
+SHOT 1B — A Very Unusual Problem
+Yoo Mira mode: FUNNY
+Timeline: 00:07:19–00:15:09 @30fps | frames [229, 459) | duration 230 frames (7.667s)
+Source decimal local timing: 0:07.633-0:15.308
+Speechma narration: “And right now... She has a very unusual problem. Mira keeps noticing strong boys.”
+Story purpose: Set up the comedic premise that Mira is unusually focused on strong boys.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_FUNNY
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Medium close-up of Mira noticing something off-frame with analytical curiosity rather than romantic swooning. Preserve her exact approved face and glasses. Use a slightly comedic composition with empty space in the direction she is looking.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1B (A Very Unusual Problem). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Set up the comedic premise that Mira is unusually focused on strong boys. Visual composition: Medium close-up of Mira noticing something off-frame with analytical curiosity rather than romantic swooning. Preserve her exact approved face and glasses. Use a slightly comedic composition with empty space in the direction she is looking. Authoritative approved references: ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. Render the approved on-image NONE exactly as: 'A VERY UNUSUAL PROBLEM.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="A VERY UNUSUAL PROBLEM."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +209f (6.950s), Scale 103%, X -8, Y -5
+  - KF3: +230f (7.675s), Scale 103%, X -8, Y -5
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.725 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1C.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/yoo_mira_unusual_problem - Video 4 - Part 1 - Shot B.png
+Audio boundary verification: PASSED — Boundary 15.308s lies inside detected silence 14.790-15.825s.
+Validation status: READY
+==============================================================================
+SHOT 1C — Every Stronger Boy Gets Her Attention
+Yoo Mira mode: FUNNY
+Timeline: 00:15:09–00:32:13 @30fps | frames [459, 973) | duration 514 frames (17.133s)
+Source decimal local timing: 0:15.308-0:32.428
+Speechma narration: “First, one catches her attention. Then someone stronger appears. And suddenly... Her attention moves again. To everyone watching... It looks like Mira falls for a new guy every time someone stronger comes along.”
+Story purpose: Show the running gag that Mira's attention shifts whenever a stronger boy appears.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_FUNNY
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_05_08.jpg
+Camera / framing / perspective / composition:
+Wide 16:9 comic montage. Mira remains the consistent anchor while three visually secondary generic male students are arranged across the frame as progressively stronger-looking candidates. They must look ordinary, not handsome or hero-coded. Mira's gaze shifts conceptually from one to the next. Do not create reusable named actors for these boys.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1C (Every Stronger Boy Gets Her Attention). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show the running gag that Mira's attention shifts whenever a stronger boy appears. Visual composition: Wide 16:9 comic montage. Mira remains the consistent anchor while three visually secondary generic male students are arranged across the frame as progressively stronger-looking candidates. They must look ordinary, not handsome or hero-coded. Mira's gaze shifts conceptually from one to the next. Do not create reusable named actors for these boys. Authoritative approved references: ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. Render the approved on-image NONE exactly as: 'EVERY TIME SOMEONE STRONGER COMES ALONG...'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="EVERY TIME SOMEONE STRONGER COMES ALONG..."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PAN
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +255f (8.500s), Scale 102%, X 0, Y 0
+  - KF3: +489f (16.300s), Scale 102%, X -70, Y 0
+  - KF4: +514f (17.120s), Scale 102%, X -70, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.820 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1D.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_notices_stronger_boys - Video 4 - Part 1 - Shot C.png
+Audio boundary verification: PASSED — Boundary 32.428s lies inside detected silence 31.933-32.922s.
+Validation status: READY
+==============================================================================
+SHOT 1D — She Judges Strength, Not Romance
+Yoo Mira mode: NORMAL
+Timeline: 00:32:13–00:44:08 @30fps | frames [973, 1328) | duration 355 frames (11.833s)
+Source decimal local timing: 0:32.428-0:44.250
+Speechma narration: “And they are not completely wrong. Because Mira is not judging these boys by romance. She is judging them by strength. The reason goes back to her family.”
+Story purpose: Clarify the joke: Mira is evaluating strength rather than romance.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Medium shot of Mira studying a generic male student's athletic ability with a serious evaluative expression, almost like a martial-arts assessment. The boy is visually secondary and ordinary-looking. Keep the humor in Mira's intense seriousness.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1D (She Judges Strength, Not Romance). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Clarify the joke: Mira is evaluating strength rather than romance. Visual composition: Medium shot of Mira studying a generic male student's athletic ability with a serious evaluative expression, almost like a martial-arts assessment. The boy is visually secondary and ordinary-looking. Keep the humor in Mira's intense seriousness. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. Render the approved on-image NONE exactly as: 'SHE IS JUDGING THEM BY STRENGTH.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="SHE IS JUDGING THEM BY STRENGTH."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +332f (11.050s), Scale 105%, X -12, Y -8
+  - KF3: +355f (11.822s), Scale 105%, X -12, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.772 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1E.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_judges_boys_by_strength - Video 4 - Part 1 - Shot D.png
+Audio boundary verification: PASSED — Boundary 44.250s lies inside detected silence 43.731-44.769s.
+Validation status: READY
+==============================================================================
+SHOT 1E — The Family Sword Legacy
+Yoo Mira mode: NORMAL
+Timeline: 00:44:08–00:53:21 @30fps | frames [1328, 1611) | duration 283 frames (9.433s)
+Source decimal local timing: 0:44.250-0:53.708
+Speechma narration: “Mira is the successor to a sword style passed down through generations. And her grandfather is determined to make sure that legacy survives.”
+Story purpose: Establish the family sword style and grandfather's determination to preserve it.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, ACTOR_MIRA_GRANDFATHER, LOCATION_MIRA_HOME_DOJO, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - ACTOR_MIRA_GRANDFATHER: ACTOR_MIRA_GRANDFATHER_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_MIRA_GRANDFATHER_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_HOME_DOJO: LOCATION_MIRA_HOME_DOJO_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_HOME_DOJO_FINAL.png | FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_13_16.jpg
+Camera / framing / perspective / composition:
+Wide interior of the exact approved home/dojo. Mira and her grandfather share the frame with the wooden bokken and training environment clearly visible. Grandfather carries the weight of tradition; Mira listens seriously. Warm but restrained lighting.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1E (The Family Sword Legacy). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Establish the family sword style and grandfather's determination to preserve it. Visual composition: Wide interior of the exact approved home/dojo. Mira and her grandfather share the frame with the wooden bokken and training environment clearly visible. Grandfather carries the weight of tradition; Mira listens seriously. Warm but restrained lighting. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | ACTOR_MIRA_GRANDFATHER (ACTOR_MIRA_GRANDFATHER_FINAL.png): Approved elderly martial-arts master with exact face, white topknot and beard, traditional clothing, proportions, stern/comedic demeanor, and MangaGlide manhwa rendering. Continuity: Preserve exact approved face, topknot, beard, clothing, proportions, and demeanor. Do not modernize or beautify the design. | LOCATION_MIRA_HOME_DOJO (LOCATION_MIRA_HOME_DOJO_FINAL.png): Approved traditional home/dojo architecture, room layout, training details, materials, lighting, and MangaGlide manhwa rendering. Continuity: Preserve architecture, room layout, training details, materials, lighting, and rendering style. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'A SWORD STYLE PASSED DOWN THROUGH GENERATIONS.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text="A SWORD STYLE PASSED DOWN THROUGH GENERATIONS."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PAN
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +261f (8.700s), Scale 104%, X -15, Y -6
+  - KF3: +283f (9.458s), Scale 104%, X -15, Y -6
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.758 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: DISSOLVE | 6 frames (0.200s) | source instruction: Soft 0.20-second dissolve to Shot 1F.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_family_sword_legacy - Video 4 - Part 1 - Shot E.png
+Audio boundary verification: PASSED — Boundary 53.708s lies inside detected silence 53.211-54.206s.
+Validation status: READY
+==============================================================================
+SHOT 1F — Grandfather's Solution
+Yoo Mira mode: FUNNY
+Timeline: 00:53:21–01:02:05 @30fps | frames [1611, 1865) | duration 254 frames (8.467s)
+Source decimal local timing: 0:53.708-1:02.150
+Speechma narration: “His solution? Mira needs to find a strong man. Someone with what he calls... Good seed.”
+Story purpose: Deliver the chapter's central comedy beat: grandfather wants Mira to find a strong man with 'good seed.'
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_MIRA_GRANDFATHER, ACTOR_YOO_MIRA_FUNNY, LOCATION_MIRA_HOME_DOJO
+  - ACTOR_MIRA_GRANDFATHER: ACTOR_MIRA_GRANDFATHER_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_MIRA_GRANDFATHER_FINAL.png | FINAL | AVAILABLE
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+  - LOCATION_MIRA_HOME_DOJO: LOCATION_MIRA_HOME_DOJO_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_HOME_DOJO_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Comedic medium two-shot in the exact dojo. Grandfather speaks with complete seriousness while Mira reacts with restrained disbelief/awkwardness. Do not make the grandfather sinister; the humor comes from how matter-of-fact he is.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1F (Grandfather's Solution). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Deliver the chapter's central comedy beat: grandfather wants Mira to find a strong man with 'good seed.' Visual composition: Comedic medium two-shot in the exact dojo. Grandfather speaks with complete seriousness while Mira reacts with restrained disbelief/awkwardness. Do not make the grandfather sinister; the humor comes from how matter-of-fact he is. Authoritative approved references: ACTOR_MIRA_GRANDFATHER (ACTOR_MIRA_GRANDFATHER_FINAL.png): Approved elderly martial-arts master with exact face, white topknot and beard, traditional clothing, proportions, stern/comedic demeanor, and MangaGlide manhwa rendering. Continuity: Preserve exact approved face, topknot, beard, clothing, proportions, and demeanor. Do not modernize or beautify the design. | ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | LOCATION_MIRA_HOME_DOJO (LOCATION_MIRA_HOME_DOJO_FINAL.png): Approved traditional home/dojo architecture, room layout, training details, materials, lighting, and MangaGlide manhwa rendering. Continuity: Preserve architecture, room layout, training details, materials, lighting, and rendering style. Render the approved on-image NONE exactly as: 'GOOD SEED.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="GOOD SEED."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +233f (7.750s), Scale 105%, X -32, Y -8
+  - KF3: +253f (8.442s), Scale 105%, X -32, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.692 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1G.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/grandfather_good_seed_advice - Video 4 - Part 1 - Shot F.png
+Audio boundary verification: PASSED — Boundary 62.150s lies inside detected silence 61.636-62.664s.
+Validation status: READY
+==============================================================================
+SHOT 1G — Embarrassing Advice Becomes a Mission
+Yoo Mira mode: FUNNY
+Timeline: 01:02:05–01:11:28 @30fps | frames [1865, 2158) | duration 293 frames (9.767s)
+Source decimal local timing: 1:02.150-1:11.947
+Speechma narration: “For most granddaughters... That would be unbelievably embarrassing advice. For Mira... It becomes almost a mission.”
+Story purpose: Show Mira turning an embarrassing family request into something she takes seriously.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_FUNNY, ACTOR_MIRA_GRANDFATHER, LOCATION_MIRA_HOME_DOJO
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+  - ACTOR_MIRA_GRANDFATHER: ACTOR_MIRA_GRANDFATHER_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_MIRA_GRANDFATHER_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_HOME_DOJO: LOCATION_MIRA_HOME_DOJO_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_HOME_DOJO_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Mira in foreground with awkward embarrassment transitioning into focused determination; grandfather remains smaller in the background. Keep exact approved designs. The scene should feel funny but sincere.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1G (Embarrassing Advice Becomes a Mission). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show Mira turning an embarrassing family request into something she takes seriously. Visual composition: Mira in foreground with awkward embarrassment transitioning into focused determination; grandfather remains smaller in the background. Keep exact approved designs. The scene should feel funny but sincere. Authoritative approved references: ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | ACTOR_MIRA_GRANDFATHER (ACTOR_MIRA_GRANDFATHER_FINAL.png): Approved elderly martial-arts master with exact face, white topknot and beard, traditional clothing, proportions, stern/comedic demeanor, and MangaGlide manhwa rendering. Continuity: Preserve exact approved face, topknot, beard, clothing, proportions, and demeanor. Do not modernize or beautify the design. | LOCATION_MIRA_HOME_DOJO (LOCATION_MIRA_HOME_DOJO_FINAL.png): Approved traditional home/dojo architecture, room layout, training details, materials, lighting, and MangaGlide manhwa rendering. Continuity: Preserve architecture, room layout, training details, materials, lighting, and rendering style. Render the approved on-image NONE exactly as: 'IT BECOMES ALMOST A MISSION.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="IT BECOMES ALMOST A MISSION."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +272f (9.050s), Scale 104%, X -5, Y -8
+  - KF3: +293f (9.797s), Scale 104%, X -5, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.747 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1H.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_turns_advice_into_mission - Video 4 - Part 1 - Shot G.png
+Audio boundary verification: PASSED — Boundary 71.947s lies inside detected silence 71.423-72.472s.
+Validation status: READY
+==============================================================================
+SHOT 1H — Her Three-Part Mission
+Yoo Mira mode: NORMAL
+Timeline: 01:11:28–01:19:04 @30fps | frames [2158, 2374) | duration 216 frames (7.200s)
+Source decimal local timing: 1:11.947-1:19.139
+Speechma narration: “Find someone strong enough. Protect the family line. Preserve the sword style.”
+Story purpose: Summarize Mira's self-imposed goal: find strength, protect the family line, preserve the sword style.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD, LOCATION_MIRA_HOME_DOJO
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_HOME_DOJO: LOCATION_MIRA_HOME_DOJO_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_HOME_DOJO_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Heroic-but-grounded full/three-quarter shot of Mira holding the bokken in the dojo, not glamorous. Leave clean negative space for a three-line narration caption. This is determination, not combat.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1H (Her Three-Part Mission). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Summarize Mira's self-imposed goal: find strength, protect the family line, preserve the sword style. Visual composition: Heroic-but-grounded full/three-quarter shot of Mira holding the bokken in the dojo, not glamorous. Leave clean negative space for a three-line narration caption. This is determination, not combat. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_HOME_DOJO (LOCATION_MIRA_HOME_DOJO_FINAL.png): Approved traditional home/dojo architecture, room layout, training details, materials, lighting, and MangaGlide manhwa rendering. Continuity: Preserve architecture, room layout, training details, materials, lighting, and rendering style. No on-image text. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text=null; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +197f (6.550s), Scale 103%, X 0, Y -10
+  - KF3: +216f (7.191s), Scale 103%, X 0, Y -10
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.641 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 1I.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_three_part_family_mission - Video 4 - Part 1 - Shot H.png
+Audio boundary verification: PASSED — Boundary 79.139s lies inside detected silence 78.629-79.648s.
+Validation status: READY
+==============================================================================
+SHOT 1I — The Real Problem
+Yoo Mira mode: NORMAL
+Timeline: 01:19:04–01:32:11 @30fps | frames [2374, 2771) | duration 397 frames (13.233s)
+Source decimal local timing: 1:19.139-1:32.352
+Speechma narration: “Which explains why every powerful boy suddenly looks a little more interesting. But there is one problem. Finding someone stronger than Mira... Is going to be much harder than it sounds.”
+Story purpose: End Part 1 on the joke that finding someone stronger than Mira will be difficult.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Confident medium-wide Mira with the wooden sword, calm and clearly formidable. Use a slightly comedic contrast between her ordinary student appearance and the intimidating confidence of a trained fighter. No actual fight yet.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 1I (The Real Problem). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: End Part 1 on the joke that finding someone stronger than Mira will be difficult. Visual composition: Confident medium-wide Mira with the wooden sword, calm and clearly formidable. Use a slightly comedic contrast between her ordinary student appearance and the intimidating confidence of a trained fighter. No actual fight yet. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'FINDING SOMEONE STRONGER THAN MIRA...'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text="FINDING SOMEONE STRONGER THAN MIRA..."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PULL-BACK
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +374f (12.450s), Scale 100%, X 0, Y 0
+  - KF3: +396f (13.213s), Scale 100%, X 0, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.763 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Part 2 Shot 2A.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/finding_someone_stronger_than_mira - Video 4 - Part 1 - Shot I.png
+
+--------------------------------------------------
+
+##################################################
+PART 2 — THEY PICKED THE WRONG GIRL
+##################################################
+Audio boundary verification: PASSED — Part end; MP3 ends in detected trailing silence.
+Validation status: READY
+==============================================================================
+SHOT 2A — The Delinquents' Mistake
+Yoo Mira mode: NORMAL
+Timeline: 01:32:11–01:42:07 @30fps | frames [2771, 3067) | duration 296 frames (9.867s)
+Source decimal local timing: 0:00.000-0:09.883
+Speechma narration: “And then... A group of delinquents makes a terrible mistake. They see Mira with her wooden sword. A schoolgirl with glasses.”
+Story purpose: Introduce the street confrontation and show the thugs misreading Mira.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_21_24.jpg
+Camera / framing / perspective / composition:
+Wide city-street establishing shot using the exact approved street reference. Mira walks with her wooden bokken while a rough, ordinary-looking group of high-school delinquents notices her. Extras must stay plain/rough and visually secondary.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2A (The Delinquents' Mistake). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Introduce the street confrontation and show the thugs misreading Mira. Visual composition: Wide city-street establishing shot using the exact approved street reference. Mira walks with her wooden bokken while a rough, ordinary-looking group of high-school delinquents notices her. Extras must stay plain/rough and visually secondary. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. Render the approved on-image NONE exactly as: 'A TERRIBLE MISTAKE.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="A TERRIBLE MISTAKE."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PAN
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +275f (9.150s), Scale 104%, X -20, Y -4
+  - KF3: +296f (9.883s), Scale 104%, X -20, Y -4
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.733 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2B.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/delinquents_notice_yoo_mira - Video 4 - Part 2 - Shot A.png
+Audio boundary verification: PASSED — Boundary 9.883s lies inside detected silence 9.400-10.366s.
+Validation status: READY
+==============================================================================
+SHOT 2B — Easy Prey
+Yoo Mira mode: NORMAL
+Timeline: 01:42:07–01:50:22 @30fps | frames [3067, 3322) | duration 255 frames (8.500s)
+Source decimal local timing: 0:09.883-0:18.368
+Speechma narration: “Quiet. Small. Easy prey. At least... That is what they think.”
+Story purpose: Show how the delinquents incorrectly perceive Mira as harmless.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Medium-wide composition with Mira smaller at center while several plain rough-looking delinquents encroach from the edges. Mira remains calm. Avoid sexualized framing or glamorization.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2B (Easy Prey). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show how the delinquents incorrectly perceive Mira as harmless. Visual composition: Medium-wide composition with Mira smaller at center while several plain rough-looking delinquents encroach from the edges. Mira remains calm. Avoid sexualized framing or glamorization. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. Render the approved on-image NONE exactly as: 'EASY PREY.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="EASY PREY."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +233f (7.750s), Scale 104%, X 0, Y -5
+  - KF3: +255f (8.485s), Scale 104%, X 0, Y -5
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.735 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2C.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/thugs_think_mira_is_easy_prey - Video 4 - Part 2 - Shot B.png
+Audio boundary verification: PASSED — Boundary 18.368s lies inside detected silence 17.858-18.877s.
+Validation status: READY
+==============================================================================
+SHOT 2C — Mira Is Annoyed, Not Afraid
+Yoo Mira mode: RAGE
+Timeline: 01:50:22–01:57:03 @30fps | frames [3322, 3513) | duration 191 frames (6.367s)
+Source decimal local timing: 0:18.368-0:24.723
+Speechma narration: “They surround her. And instead of getting scared... Mira looks annoyed.”
+Story purpose: Reverse the expected damsel-in-distress setup by showing Mira's irritation.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Close/medium close-up of Mira framed by blurred delinquent shoulders in foreground. Her expression is annoyed and unimpressed, not frightened. Keep exact approved glasses, hair, clothing, and bokken.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2C (Mira Is Annoyed, Not Afraid). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Reverse the expected damsel-in-distress setup by showing Mira's irritation. Visual composition: Close/medium close-up of Mira framed by blurred delinquent shoulders in foreground. Her expression is annoyed and unimpressed, not frightened. Keep exact approved glasses, hair, clothing, and bokken. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. Render the approved on-image NONE exactly as: 'MIRA LOOKS ANNOYED.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="MIRA LOOKS ANNOYED."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +174f (5.800s), Scale 106%, X 0, Y -10
+  - KF3: +191f (6.355s), Scale 106%, X 0, Y -10
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.555 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2D.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_annoyed_by_delinquents - Video 4 - Part 2 - Shot C.png
+Audio boundary verification: PASSED — Boundary 24.723s lies inside detected silence 24.213-25.233s.
+Validation status: READY
+==============================================================================
+SHOT 2D — All at Once
+Yoo Mira mode: RAGE
+Timeline: 01:57:03–02:09:05 @30fps | frames [3513, 3875) | duration 362 frames (12.067s)
+Source decimal local timing: 0:24.723-0:36.790
+Speechma narration: “Dealing with them one at a time would take too long. So she makes it simple. Come at her together. The delinquents laugh. That laughter does not last.”
+Story purpose: Show Mira inviting the whole group to attack together and set up the action payoff.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_25_28.jpg
+Camera / framing / perspective / composition:
+Wide standoff. Mira stands relaxed with the bokken while the entire delinquent group faces her. Their laughter/confidence should read clearly from body language. Mira is centered and completely composed.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2D (All at Once). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show Mira inviting the whole group to attack together and set up the action payoff. Visual composition: Wide standoff. Mira stands relaxed with the bokken while the entire delinquent group faces her. Their laughter/confidence should read clearly from body language. Mira is centered and completely composed. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. Render the approved on-image NONE exactly as: 'COME AT HER TOGETHER.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="COME AT HER TOGETHER."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +339f (11.300s), Scale 103%, X 0, Y -5
+  - KF3: +362f (12.067s), Scale 103%, X 0, Y -5
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.767 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut on action to Shot 2E.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_challenges_all_thugs_at_once - Video 4 - Part 2 - Shot D.png
+Audio boundary verification: PASSED — Boundary 36.790s lies inside detected silence 36.304-37.275s.
+Validation status: READY
+==============================================================================
+SHOT 2E — Mira Moves
+Yoo Mira mode: RAGE
+Timeline: 02:09:05–02:21:24 @30fps | frames [3875, 4254) | duration 379 frames (12.633s)
+Source decimal local timing: 0:36.790-0:49.430
+Speechma narration: “Mira moves. Fast. Precise. And frighteningly calm. She does not even need a real blade. Her wooden sword is more than enough.”
+Story purpose: Deliver the chapter's primary action beat: Mira's speed, precision, and wooden-sword skill.
+Production type: FLOW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_29_32.jpg
+Camera / framing / perspective / composition:
+Dynamic 16:9 action start frame. Mira begins a precise bokken strike while two nearby ordinary-looking delinquents are about to react. Keep poses readable and physically plausible. No text in the generated start frame. Preserve all exact approved identities and object design.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2E (Mira Moves). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Deliver the chapter's primary action beat: Mira's speed, precision, and wooden-sword skill. Visual composition: Dynamic 16:9 action start frame. Mira begins a precise bokken strike while two nearby ordinary-looking delinquents are about to react. Keep poses readable and physically plausible. No text in the generated start frame. Preserve all exact approved identities and object design. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. Do not render text in the Flow start frame. CapCut overlay after animation: NONE text 'FAST. PRECISE. FRIGHTENINGLY CALM.'. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+  - Flow start frame must contain no speech bubble, thought cloud, narration caption, arrow, subtitle, or generated audio.
+  - Do not imply motion blur that conflicts with use as an exact animation start frame.
+On-image text: type=NONE; exact_text="FAST. PRECISE. FRIGHTENINGLY CALM."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: FLOW START FRAME
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +240f (8.000s), Scale 100%, X 0, Y 0
+  - KF3: +379f (12.640s), Scale 100%, X 0, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 4.640 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2F.
+Google Flow instructions: Use the generated still as the exact start frame.
+- Preserve ACTOR_YOO_MIRA_RAGE, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET, and EXTRA_MIRA_THUGS exactly.
+- Generate a silent 16:9 animation.
+- Do not add new characters.
+- Do not create a cut.
+- Animate only this action: Mira performs one fast, controlled bokken strike; the two nearest delinquents recoil and lose balance while the remaining thugs react in surprise.
+- Keep Mira's face, glasses, hair, clothing, body proportions, and wooden sword unchanged.
+- The wooden sword must remain a wooden bokken; do not turn it into a steel blade, glowing weapon, or fantasy sword.
+- No blood, gore, dismemberment, or graphic injury.
+- Camera movement: locked camera with only a very subtle forward drift; no orbit, whip-pan, or dramatic lens change.
+- Do not generate dialogue, music, sound effects, subtitles, bubbles, captions, arrows, or narration.
+- If Flow outputs 8.00 seconds, use the animation from 0:00.00-0:08.00, then freeze the final frame for 4.640 seconds to fill the remaining shot duration of 12.640 seconds.
+- Add the required narration caption later in CapCut: "FAST. PRECISE. FRIGHTENINGLY CALM."
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_bokken_counterattack_start_frame - Video 4 - Part 2 - Shot E.png
+Audio boundary verification: PASSED — Boundary 49.430s lies inside detected silence 48.917-49.943s.
+Validation status: READY
+==============================================================================
+SHOT 2F — Bare Hands Are Just as Dangerous
+Yoo Mira mode: RAGE
+Timeline: 02:21:24–02:32:22 @30fps | frames [4254, 4582) | duration 328 frames (10.933s)
+Source decimal local timing: 0:49.430-1:00.383
+Speechma narration: “And when the fight gets closer... Her bare hands are just as dangerous. One attacker drops. Then another. Then another.”
+Story purpose: Show that Mira remains dangerous even when the fight closes to hand-to-hand range.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Impact still of Mira using a clean close-range strike or throw while the bokken remains visible but secondary. Use a strong action silhouette. Thugs must remain ordinary/rough-looking and not stylized as elite fighters.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2F (Bare Hands Are Just as Dangerous). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show that Mira remains dangerous even when the fight closes to hand-to-hand range. Visual composition: Impact still of Mira using a clean close-range strike or throw while the bokken remains visible but secondary. Use a strong action silhouette. Thugs must remain ordinary/rough-looking and not stylized as elite fighters. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'HER BARE HANDS ARE JUST AS DANGEROUS.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="HER BARE HANDS ARE JUST AS DANGEROUS."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT IMPACT SHAKE + PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +2f (0.067s), Scale 104%, X 10, Y -4
+  - KF3: +4f (0.133s), Scale 104%, X -10, Y -6
+  - KF4: +6f (0.200s), Scale 104%, X 6, Y -5
+  - KF5: +306f (10.200s), Scale 106%, X -8, Y -10
+  - KF6: +328f (10.953s), Scale 106%, X -8, Y -10
+  - Rotation 0°; Opacity 100%; Easing Linear for the first impact-shake keyframes, then Ease In-Out for the remaining move.
+  - Hold: 0.753 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2G.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_bare_hand_counterattack - Video 4 - Part 2 - Shot F.png
+Audio boundary verification: PASSED — Boundary 60.383s lies inside detected silence 59.873-60.894s.
+Validation status: READY
+==============================================================================
+SHOT 2G — The Confidence Disappears
+Yoo Mira mode: RAGE
+Timeline: 02:32:22–02:45:21 @30fps | frames [4582, 4971) | duration 389 frames (12.967s)
+Source decimal local timing: 1:00.383-1:13.343
+Speechma narration: “The confidence disappears from the group almost immediately. A few moments ago... They thought they were surrounding a helpless girl. Now they are wondering how to survive the girl they surrounded.”
+Story purpose: Show the delinquents realizing they badly misjudged Mira.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_33_36.jpg
+Camera / framing / perspective / composition:
+Wide aftermath-in-progress. Some delinquents are down; the remaining ordinary-looking thugs recoil with fear. Mira stands composed and unhurt. No gore.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2G (The Confidence Disappears). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show the delinquents realizing they badly misjudged Mira. Visual composition: Wide aftermath-in-progress. Some delinquents are down; the remaining ordinary-looking thugs recoil with fear. Mira stands composed and unhurt. No gore. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. Render the approved on-image NONE exactly as: 'THE CONFIDENCE DISAPPEARS FROM THE GROUP.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="THE CONFIDENCE DISAPPEARS FROM THE GROUP."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PAN
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +366f (12.200s), Scale 103%, X -45, Y -4
+  - KF3: +389f (12.959s), Scale 103%, X -45, Y -4
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.759 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2H.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/thugs_lose_confidence_against_mira - Video 4 - Part 2 - Shot G.png
+Audio boundary verification: PASSED — Boundary 73.343s lies inside detected silence 72.842-73.843s.
+Validation status: READY
+==============================================================================
+SHOT 2H — Only One Conclusion
+Yoo Mira mode: RAGE
+Timeline: 02:45:21–02:54:07 @30fps | frames [4971, 5227) | duration 256 frames (8.533s)
+Source decimal local timing: 1:13.343-1:21.880
+Speechma narration: “By the time Mira is finished... There is only one conclusion. Yoo Mira is not looking for someone to protect her.”
+Story purpose: Land the reversal: Mira does not need protection.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE, LOCATION_MIRA_CITY_STREET, EXTRA_MIRA_THUGS, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+  - EXTRA_MIRA_THUGS: EXTRA_MIRA_THUGS_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png | FINAL GROUP | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Aftermath still. Mira stands calmly with the wooden sword while defeated delinquents are scattered around at safe, non-graphic distances. She is not posing for glamour; she simply looks capable and mildly irritated.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2H (Only One Conclusion). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Land the reversal: Mira does not need protection. Visual composition: Aftermath still. Mira stands calmly with the wooden sword while defeated delinquents are scattered around at safe, non-graphic distances. She is not posing for glamour; she simply looks capable and mildly irritated. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. | EXTRA_MIRA_THUGS (EXTRA_MIRA_THUGS_FINAL.png): Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary. Continuity: Keep extras ordinary/rough-looking and varied. Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'YOO MIRA IS NOT LOOKING FOR SOMEONE TO PROTECT HER.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+  - Do not make delinquent/thug side characters handsome, glamorous, stylish, muscular-heroic, or main-character coded.
+On-image text: type=NONE; exact_text="YOO MIRA IS NOT LOOKING FOR SOMEONE TO PROTECT HER."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PULL-BACK
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +236f (7.850s), Scale 100%, X 0, Y 0
+  - KF3: +256f (8.537s), Scale 100%, X 0, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.688 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 2I.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_after_defeating_delinquents - Video 4 - Part 2 - Shot H.png
+Audio boundary verification: PASSED — Boundary 81.880s lies inside detected silence 81.369-82.392s.
+Validation status: READY
+==============================================================================
+SHOT 2I — A Painful Mistake
+Yoo Mira mode: RAGE
+Timeline: 02:54:07–03:00:04 @30fps | frames [5227, 5404) | duration 177 frames (5.900s)
+Source decimal local timing: 1:21.880-1:27.768
+Speechma narration: “Anyone who underestimates her... Is making a very painful mistake.”
+Story purpose: Close Part 2 with a concise warning about underestimating Mira.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_RAGE
+  - ACTOR_YOO_MIRA_RAGE: ACTOR_YOO_MIRA_RAGE.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png | Option 4 — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Tight close-up of Mira with a calm, slightly stern expression. Use the exact approved face and glasses. Background softly abstracts the street aftermath.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 2I (A Painful Mistake). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Close Part 2 with a concise warning about underestimating Mira. Visual composition: Tight close-up of Mira with a calm, slightly stern expression. Use the exact approved face and glasses. Background softly abstracts the street aftermath. Authoritative approved references: ACTOR_YOO_MIRA_RAGE (ACTOR_YOO_MIRA_RAGE.png): Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. Render the approved on-image NONE exactly as: 'A VERY PAINFUL MISTAKE.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="A VERY PAINFUL MISTAKE."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +159f (5.300s), Scale 106%, X 0, Y -12
+  - KF3: +177f (5.888s), Scale 106%, X 0, Y -12
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.588 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Part 3 Shot 3A.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_underestimate_warning - Video 4 - Part 2 - Shot I.png
+
+--------------------------------------------------
+
+##################################################
+PART 3 — MIRA GETS HER INVITATION
+##################################################
+Audio boundary verification: PASSED — Part end; MP3 ends in detected trailing silence.
+Validation status: READY
+==============================================================================
+SHOT 3A — Exactly the Fighter GOH Wants
+Yoo Mira mode: NORMAL
+Timeline: 03:00:04–03:14:29 @30fps | frames [5404, 5849) | duration 445 frames (14.833s)
+Source decimal local timing: 0:00.000-0:14.830
+Speechma narration: “That display of strength makes one thing very clear. Yoo Mira is exactly the kind of fighter the God of High School is searching for. She is the successor to her family's sword style. A genuine martial-arts prodigy.”
+Story purpose: Connect Mira's demonstrated strength to why GOH would recruit her.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD, LOCATION_MIRA_CITY_STREET
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_CITY_STREET: LOCATION_MIRA_CITY_STREET_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png | FINAL | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_37_40.jpg
+Camera / framing / perspective / composition:
+Strong aftermath portrait with Mira standing in the city street after the confrontation, bokken visible. Keep the mood observant and consequential rather than triumphant.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3A (Exactly the Fighter GOH Wants). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Connect Mira's demonstrated strength to why GOH would recruit her. Visual composition: Strong aftermath portrait with Mira standing in the city street after the confrontation, bokken visible. Keep the mood observant and consequential rather than triumphant. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. | LOCATION_MIRA_CITY_STREET (LOCATION_MIRA_CITY_STREET_FINAL.png): Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering. Continuity: Preserve street layout, building/storefront character, lighting, and rendering style. Render the approved on-image NONE exactly as: 'EXACTLY THE KIND OF FIGHTER THE GOD OF HIGH SCHOOL IS SEARCHING FOR.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text="EXACTLY THE KIND OF FIGHTER THE GOD OF HIGH SCHOOL IS SEARCHING FOR."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +422f (14.050s), Scale 104%, X -12, Y -8
+  - KF3: +445f (14.830s), Scale 104%, X -12, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.780 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3B.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/goh_recognizes_yoo_mira_strength - Video 4 - Part 3 - Shot A.png
+Audio boundary verification: PASSED — Boundary 14.830s lies inside detected silence 14.308-15.352s.
+Validation status: READY
+==============================================================================
+SHOT 3B — The Same Tournament Reaches Mira
+Yoo Mira mode: NORMAL
+Timeline: 03:14:29–03:26:17 @30fps | frames [5849, 6197) | duration 348 frames (11.600s)
+Source decimal local timing: 0:14.830-0:26.428
+Speechma narration: “And now... The same tournament that reached Jin Mo-ri and Han Daewi reaches Mira. The God of High School. A tournament filled with powerful fighters.”
+Story purpose: Reveal that Mira receives the same standardized GOH invitation as Mori and Daewi.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_GOH_INVITATION
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_GOH_INVITATION: OBJECT_GOH_INVITATION_STANDARD.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_GOH_INVITATION_STANDARD.png | SERIES STANDARD — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Medium close-up of Mira examining the exact standard black/gold GOH invitation. The prop must match the established Mori/Daewi invitation design exactly; only hand angle and lighting may vary.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3B (The Same Tournament Reaches Mira). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Reveal that Mira receives the same standardized GOH invitation as Mori and Daewi. Visual composition: Medium close-up of Mira examining the exact standard black/gold GOH invitation. The prop must match the established Mori/Daewi invitation design exactly; only hand angle and lighting may vary. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_GOH_INVITATION (OBJECT_GOH_INVITATION_STANDARD.png): Official series-standard GOH invitation shared with Jin Mori and Han Daewi; preserve black/gold branding, emblem, typography, material, shape, palette, and construction. Continuity: Reuse the same official invitation design for Mira. Only angle, crop, lighting, hand position, wear, or scene condition may change. Render the approved on-image NONE exactly as: 'THE GOD OF HIGH SCHOOL.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="THE GOD OF HIGH SCHOOL."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +326f (10.850s), Scale 105%, X -15, Y -6
+  - KF3: +348f (11.598s), Scale 105%, X -15, Y -6
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.748 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3C.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/yoo_mira_receives_standard_goh_invitation - Video 4 - Part 3 - Shot B.png
+Audio boundary verification: PASSED — Boundary 26.428s lies inside detected silence 25.910-26.947s.
+Validation status: READY
+==============================================================================
+SHOT 3C — More Than Winning Matches
+Yoo Mira mode: NORMAL
+Timeline: 03:26:17–03:31:12 @30fps | frames [6197, 6342) | duration 145 frames (4.833s)
+Source decimal local timing: 0:26.428-0:31.269
+Speechma narration: “For Mira... That means more than simply winning matches.”
+Story purpose: Show Mira considering what the tournament could mean for her personal mission.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_GOH_INVITATION
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_GOH_INVITATION: OBJECT_GOH_INVITATION_STANDARD.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_GOH_INVITATION_STANDARD.png | SERIES STANDARD — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Close-up reaction. Mira holds the invitation lower in frame while thinking seriously. No invented thought bubble; the narration carries the meaning.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3C (More Than Winning Matches). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show Mira considering what the tournament could mean for her personal mission. Visual composition: Close-up reaction. Mira holds the invitation lower in frame while thinking seriously. No invented thought bubble; the narration carries the meaning. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_GOH_INVITATION (OBJECT_GOH_INVITATION_STANDARD.png): Official series-standard GOH invitation shared with Jin Mori and Han Daewi; preserve black/gold branding, emblem, typography, material, shape, palette, and construction. Continuity: Reuse the same official invitation design for Mira. Only angle, crop, lighting, hand position, wear, or scene condition may change. Render the approved on-image NONE exactly as: 'MORE THAN SIMPLY WINNING MATCHES.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="MORE THAN SIMPLY WINNING MATCHES."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +128f (4.250s), Scale 104%, X 0, Y -8
+  - KF3: +145f (4.841s), Scale 104%, X 0, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.591 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3D.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_considers_what_goh_means - Video 4 - Part 3 - Shot C.png
+Audio boundary verification: PASSED — Boundary 31.269s lies inside detected silence 30.773-31.766s.
+Validation status: READY
+==============================================================================
+SHOT 3D — The Strongest in One Place
+Yoo Mira mode: FUNNY
+Timeline: 03:31:12–03:40:08 @30fps | frames [6342, 6608) | duration 266 frames (8.867s)
+Source decimal local timing: 0:31.269-0:40.133
+Speechma narration: “If the strongest young fighters are gathering in one place... Then maybe the kind of man her grandfather keeps talking about could be there too.”
+Story purpose: Visualize Mira realizing that GOH gathers many powerful young fighters.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_FUNNY, OBJECT_GOH_INVITATION
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_GOH_INVITATION: OBJECT_GOH_INVITATION_STANDARD.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_GOH_INVITATION_STANDARD.png | SERIES STANDARD — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Stylized manga composition: Mira and the invitation in foreground, with multiple generic fighter silhouettes in the background. Do not create new named characters or handsome hero-coded extras. The silhouettes merely represent the scale of the tournament.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3D (The Strongest in One Place). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Visualize Mira realizing that GOH gathers many powerful young fighters. Visual composition: Stylized manga composition: Mira and the invitation in foreground, with multiple generic fighter silhouettes in the background. Do not create new named characters or handsome hero-coded extras. The silhouettes merely represent the scale of the tournament. Authoritative approved references: ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_GOH_INVITATION (OBJECT_GOH_INVITATION_STANDARD.png): Official series-standard GOH invitation shared with Jin Mori and Han Daewi; preserve black/gold branding, emblem, typography, material, shape, palette, and construction. Continuity: Reuse the same official invitation design for Mira. Only angle, crop, lighting, hand position, wear, or scene condition may change. Render the approved on-image NONE exactly as: 'THE STRONGEST YOUNG FIGHTERS... IN ONE PLACE.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="THE STRONGEST YOUNG FIGHTERS... IN ONE PLACE."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PULL-BACK
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +243f (8.100s), Scale 100%, X 0, Y 0
+  - KF3: +266f (8.864s), Scale 100%, X 0, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.764 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3E.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_imagines_strong_goh_fighters - Video 4 - Part 3 - Shot D.png
+Audio boundary verification: PASSED — Boundary 40.133s lies inside detected silence 39.632-40.635s.
+Validation status: READY
+==============================================================================
+SHOT 3E — Good Seed, Again
+Yoo Mira mode: FUNNY
+Timeline: 03:40:08–03:48:25 @30fps | frames [6608, 6865) | duration 257 frames (8.567s)
+Source decimal local timing: 0:40.133-0:48.715
+Speechma narration: “Someone strong. Someone worthy. Someone with... Yes... Good seed.”
+Story purpose: Pay off the grandfather comedy by connecting the tournament to Mira's search for a strong partner.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_FUNNY, ACTOR_MIRA_GRANDFATHER
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+  - ACTOR_MIRA_GRANDFATHER: ACTOR_MIRA_GRANDFATHER_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_MIRA_GRANDFATHER_FINAL.png | FINAL | AVAILABLE
+Source panel context: /mnt/data/ep3_sheets/ep3_panels_41_43.jpg
+Camera / framing / perspective / composition:
+Comedic split composition. Mira looks thoughtfully intrigued while a faded memory-style image of her grandfather appears to one side, completely serious. Do not invent a new suitor. Keep the gag centered on the phrase from the narration.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3E (Good Seed, Again). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Pay off the grandfather comedy by connecting the tournament to Mira's search for a strong partner. Visual composition: Comedic split composition. Mira looks thoughtfully intrigued while a faded memory-style image of her grandfather appears to one side, completely serious. Do not invent a new suitor. Keep the gag centered on the phrase from the narration. Authoritative approved references: ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | ACTOR_MIRA_GRANDFATHER (ACTOR_MIRA_GRANDFATHER_FINAL.png): Approved elderly martial-arts master with exact face, white topknot and beard, traditional clothing, proportions, stern/comedic demeanor, and MangaGlide manhwa rendering. Continuity: Preserve exact approved face, topknot, beard, clothing, proportions, and demeanor. Do not modernize or beautify the design. Render the approved on-image NONE exactly as: 'GOOD SEED.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="GOOD SEED."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +236f (7.850s), Scale 104%, X -8, Y -5
+  - KF3: +257f (8.582s), Scale 104%, X -8, Y -5
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.732 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3F.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_good_seed_tournament_joke - Video 4 - Part 3 - Shot E.png
+Audio boundary verification: PASSED — Boundary 48.715s lies inside detected silence 48.211-49.219s.
+Validation status: READY
+==============================================================================
+SHOT 3F — GOH Suddenly Sounds Interesting
+Yoo Mira mode: FUNNY
+Timeline: 03:48:25–03:57:02 @30fps | frames [6865, 7112) | duration 247 frames (8.233s)
+Source decimal local timing: 0:48.715-0:56.947
+Speechma narration: “Suddenly... The God of High School sounds very interesting. And Mira now has her own reason to enter.”
+Story purpose: Show Mira's mood shift as the tournament becomes personally relevant.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_FUNNY, OBJECT_GOH_INVITATION
+  - ACTOR_YOO_MIRA_FUNNY: ACTOR_YOO_MIRA_FUNNY.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_GOH_INVITATION: OBJECT_GOH_INVITATION_STANDARD.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_GOH_INVITATION_STANDARD.png | SERIES STANDARD — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Medium shot of Mira holding the invitation with a subtle newly interested expression. Keep it understated and comedic, not romantic glamour.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3F (GOH Suddenly Sounds Interesting). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Show Mira's mood shift as the tournament becomes personally relevant. Visual composition: Medium shot of Mira holding the invitation with a subtle newly interested expression. Keep it understated and comedic, not romantic glamour. Authoritative approved references: ACTOR_YOO_MIRA_FUNNY (ACTOR_YOO_MIRA_FUNNY.png): Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_GOH_INVITATION (OBJECT_GOH_INVITATION_STANDARD.png): Official series-standard GOH invitation shared with Jin Mori and Han Daewi; preserve black/gold branding, emblem, typography, material, shape, palette, and construction. Continuity: Reuse the same official invitation design for Mira. Only angle, crop, lighting, hand position, wear, or scene condition may change. Render the approved on-image NONE exactly as: 'SUDDENLY... THE GOD OF HIGH SCHOOL SOUNDS VERY INTERESTING.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text="SUDDENLY... THE GOD OF HIGH SCHOOL SOUNDS VERY INTERESTING."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PUSH
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +225f (7.500s), Scale 104%, X 0, Y -8
+  - KF3: +247f (8.231s), Scale 104%, X 0, Y -8
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.731 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3G.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_becomes_interested_in_goh - Video 4 - Part 3 - Shot F.png
+Audio boundary verification: PASSED — Boundary 56.947s lies inside detected silence 56.432-57.462s.
+Validation status: READY
+==============================================================================
+SHOT 3G — Her Sword Style Has to Survive
+Yoo Mira mode: NORMAL
+Timeline: 03:57:02–04:04:14 @30fps | frames [7112, 7334) | duration 222 frames (7.400s)
+Source decimal local timing: 0:56.947-1:04.319
+Speechma narration: “Her family's sword style has to survive. So another powerful fighter begins moving toward the tournament.”
+Story purpose: Re-anchor the comedy in Mira's serious family motivation.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, ACTOR_MIRA_GRANDFATHER, LOCATION_MIRA_HOME_DOJO, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - ACTOR_MIRA_GRANDFATHER: ACTOR_MIRA_GRANDFATHER_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_MIRA_GRANDFATHER_FINAL.png | FINAL | AVAILABLE
+  - LOCATION_MIRA_HOME_DOJO: LOCATION_MIRA_HOME_DOJO_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/LOCATION_MIRA_HOME_DOJO_FINAL.png | FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Quiet dojo composition. Mira stands with the bokken while grandfather and the training space reinforce the family legacy. Serious, warm, restrained tone.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3G (Her Sword Style Has to Survive). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Re-anchor the comedy in Mira's serious family motivation. Visual composition: Quiet dojo composition. Mira stands with the bokken while grandfather and the training space reinforce the family legacy. Serious, warm, restrained tone. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | ACTOR_MIRA_GRANDFATHER (ACTOR_MIRA_GRANDFATHER_FINAL.png): Approved elderly martial-arts master with exact face, white topknot and beard, traditional clothing, proportions, stern/comedic demeanor, and MangaGlide manhwa rendering. Continuity: Preserve exact approved face, topknot, beard, clothing, proportions, and demeanor. Do not modernize or beautify the design. | LOCATION_MIRA_HOME_DOJO (LOCATION_MIRA_HOME_DOJO_FINAL.png): Approved traditional home/dojo architecture, room layout, training details, materials, lighting, and MangaGlide manhwa rendering. Continuity: Preserve architecture, room layout, training details, materials, lighting, and rendering style. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'HER FAMILY'S SWORD STYLE HAS TO SURVIVE.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text="HER FAMILY'S SWORD STYLE HAS TO SURVIVE."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PULL-BACK
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +201f (6.700s), Scale 100%, X 0, Y 0
+  - KF3: +221f (7.372s), Scale 100%, X 0, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.672 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: DISSOLVE | 6 frames (0.200s) | source instruction: Soft 0.20-second dissolve to Shot 3H.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/mira_sword_style_must_survive - Video 4 - Part 3 - Shot G.png
+Audio boundary verification: PASSED — Boundary 64.319s lies inside detected silence 63.820-64.818s.
+Validation status: READY
+==============================================================================
+SHOT 3H — Three Fighters, Three Reasons
+Yoo Mira mode: NORMAL
+Timeline: 04:04:14–04:15:02 @30fps | frames [7334, 7652) | duration 318 frames (10.600s)
+Source decimal local timing: 1:04.319-1:14.937
+Speechma narration: “Jin Mo-ri. Han Daewi. And now Yoo Mira. Three very different fighters. Three very different reasons.”
+Story purpose: Place Mira alongside the established story paths of Mori and Daewi without requiring a new physical meeting.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_GOH_INVITATION
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_GOH_INVITATION: OBJECT_GOH_INVITATION_STANDARD.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_GOH_INVITATION_STANDARD.png | SERIES STANDARD — FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Graphic recap composition centered on Mira and the standard GOH invitation. Use three simple visual lanes or symbolic fighter silhouettes to suggest Jin Mo-ri, Han Daewi, and Yoo Mira without depicting a literal shared scene. Do not redraw Mori or Daewi as new actors. The emphasis is narrative convergence, not a physical meeting.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3H (Three Fighters, Three Reasons). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Place Mira alongside the established story paths of Mori and Daewi without requiring a new physical meeting. Visual composition: Graphic recap composition centered on Mira and the standard GOH invitation. Use three simple visual lanes or symbolic fighter silhouettes to suggest Jin Mo-ri, Han Daewi, and Yoo Mira without depicting a literal shared scene. Do not redraw Mori or Daewi as new actors. The emphasis is narrative convergence, not a physical meeting. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_GOH_INVITATION (OBJECT_GOH_INVITATION_STANDARD.png): Official series-standard GOH invitation shared with Jin Mori and Han Daewi; preserve black/gold branding, emblem, typography, material, shape, palette, and construction. Continuity: Reuse the same official invitation design for Mira. Only angle, crop, lighting, hand position, wear, or scene condition may change. No on-image text. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+On-image text: type=NONE; exact_text=null; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT PAN
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +159f (5.300s), Scale 102%, X 0, Y 0
+  - KF3: +296f (9.850s), Scale 102%, X -45, Y 0
+  - KF4: +318f (10.618s), Scale 102%, X -45, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.768 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: HARD_CUT | 0 frames (0.000s) | source instruction: Hard cut to Shot 3I.
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/three_fighters_three_reasons - Video 4 - Part 3 - Shot H.png
+Audio boundary verification: PASSED — Boundary 74.937s lies inside detected silence 74.448-75.426s.
+Validation status: READY
+==============================================================================
+SHOT 3I — Not the One Who Needs Rescuing
+Yoo Mira mode: NORMAL
+Timeline: 04:15:02–04:31:23 @30fps | frames [7652, 8153) | duration 501 frames (16.700s)
+Source decimal local timing: 1:14.937-1:31.632
+Speechma narration: “And Mira has already proven one important thing. Anyone who mistakes her for the harmless girl of the group... Is going to regret it. The first major female fighter has arrived. And she is definitely not the one who needs rescuing.”
+Story purpose: Close Video 4 on Mira's identity as the first major female fighter and the reversal of the rescue trope.
+Production type: NEW_IMAGE
+Existing approved shot reusable: NO
+Reference asset IDs: ACTOR_YOO_MIRA_NORMAL, OBJECT_MIRA_SWORD
+  - ACTOR_YOO_MIRA_NORMAL: ACTOR_YOO_MIRA_NORMAL.png | Python: /mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png | Option 4 — FINAL | AVAILABLE
+  - OBJECT_MIRA_SWORD: OBJECT_MIRA_SWORD_FINAL.png | Python: /mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png | FINAL | AVAILABLE
+Source panel context: NONE
+Camera / framing / perspective / composition:
+Final strong character shot of Mira with the wooden bokken, calm and self-possessed. No glamour pose and no damsel framing. Background can subtly echo the city fight and dojo legacy through abstract manga textures without creating a new location.
+Standalone image-generation prompt:
+MangaGlide — The God of High School, Video 4, Shot 3I (Not the One Who Needs Rescuing). Create one 1920x1080, 16:9 landscape anime/manhwa still suitable for automated image generation. Story purpose: Close Video 4 on Mira's identity as the first major female fighter and the reversal of the rescue trope. Visual composition: Final strong character shot of Mira with the wooden bokken, calm and self-possessed. No glamour pose and no damsel framing. Background can subtly echo the city fight and dojo legacy through abstract manga textures without creating a new location. Authoritative approved references: ACTOR_YOO_MIRA_NORMAL (ACTOR_YOO_MIRA_NORMAL.png): Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style. Continuity: Preserve exact approved face, glasses, hair colour, clothing colours, body proportions, and rendering style. Do not redesign or drift toward the source-panel face. Do not glamourize unless explicitly requested. | OBJECT_MIRA_SWORD (OBJECT_MIRA_SWORD_FINAL.png): Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation. Continuity: Keep the exact approved wooden practice-sword design. Never turn it into a shiny metal katana or fantasy weapon. Render the approved on-image NONE exactly as: 'SHE IS DEFINITELY NOT THE ONE WHO NEEDS RESCUING.'. Tail/arrow target: NONE. Placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail. Preserve the established MangaGlide rendering style and continuity. Refer to Actor List, Refer to Location List, and Refer to Object/Mark List when applicable. Do not redesign any approved asset.
+Negative constraints:
+  - Do not redesign, beautify, age-shift, or substitute any approved character.
+  - Do not change approved face, hair, clothing colours, glasses, body proportions, props, location architecture, or rendering style.
+  - Do not add unlisted named characters or duplicate characters.
+  - Do not copy the source-panel face; use the approved original MangaGlide actor identity.
+  - Do not crop required faces, hands, weapons, props, captions, or text tails at the planned final CapCut keyframe.
+  - No watermark, logo, subtitles, extra captions, or unapproved text.
+  - Do not turn Mira’s wooden bokken into a metal katana, glowing blade, or fantasy weapon.
+On-image text: type=NONE; exact_text="SHE IS DEFINITELY NOT THE ONE WHO NEEDS RESCUING."; tail/arrow target=NONE; render_in_generated_image=False
+Text placement: Keep the caption inside the safe area with clear separation from Mira's face, glasses, hands, bokken, invitation, and other essential subjects. Do not use a speech tail.
+Treatment: STILL + CAPCUT SLOW PULL-BACK
+CapCut Motion Instructions (frame-authoritative):
+  - KF2: +477f (15.900s), Scale 100%, X 0, Y 0
+  - KF3: +501f (16.695s), Scale 100%, X 0, Y 0
+  - Rotation 0°; Opacity 100%; Easing Ease In-Out.
+  - Hold: 0.795 seconds.
+  - Crop/framing constraints: Keep Mira's full face, glasses, hands, wooden sword, all required captions, and any visible key prop inside the 16:9 safe area. For group shots, keep every intended character readable at the final keyframe.
+  - Transition: CUT_TO_END_SCREEN | 0 frames (0.000s) | source instruction: End Video 4 on 0.35-second hold; then cut to end screen.
+  - End hold: 11 frames (0.367s)
+Google Flow instructions: Not required.
+Output image path: /mnt/data/mangaglide_video4_outputs/yoo_mira_not_the_one_needing_rescue - Video 4 - Part 3 - Shot I.png
+
+--------------------------------------------------
+
+
+==================================================
+PRODUCTION SUMMARY
+==================================================
+
+- Total audio duration: 4:31.752
+- Total planned video duration: 4:31.752
+- Total shot count: 27
+- Existing contextual shot assets reused: 0
+- New CapCut stills required: 26
+- Google Flow start-frame shots required: 1
+- Dedicated motion shots required: 0
+- Missing significant references: NONE
+- Asset Readiness Gate: PASSED
+
+Continuity risks:
+- Mira must remain the exact approved Option 4 identity in every shot; do not drift toward the original WEBTOON face.
+- OBJECT_MIRA_SWORD must remain a wooden bokken and must never become a steel or fantasy blade.
+- Delinquents must remain ordinary/rough-looking and visually secondary.
+- OBJECT_GOH_INVITATION must match the standardized Mori/Daewi invitation exactly.
+- Do not invent character dialogue or thought bubbles in downstream generation.
+- Do not make Mira glamorous or sexualized merely because she is the first major female fighter.
+
+Editing-attention shots:
+- Part 1 Shot 1C is long at 17.120 seconds; the planned controlled pan across the multi-candidate comic composition is intentional.
+- Part 3 Shot 3A is long at 14.830 seconds; use the slow push and strong aftermath composition.
+- Part 3 Shot 3I is long at 16.695 seconds; use the slow pull-back and closing hold.
+- Part 2 Shot 2E uses one selective Flow animation. If the Flow output is 8 seconds, freeze its final frame for the remaining 4.640 seconds.
+
+
+==================================================
+DOWNSTREAM SHOT-GENERATION PROTOCOL
+==================================================
+
+- Generate shots one at a time in Master Script order.
+- Before every generation, reread that exact shot entry and the Locked Production Rules.
+- Inspect the actual approved reference images.
+- Search the Project/Library for existing series-level assets before substituting or creating anything.
+- Expand all reference keys into exact filenames, Library paths, and approved option numbers.
+- Briefly identify the shot ID/title and references before generation.
+- Generate exactly one image per response.
+- After generating, provide the exact CapCut keyframe table from that shot entry.
+- “Next” advances to the next shot.
+- “Redo: [correction]” regenerates the current shot without advancing.
+- “Skip” advances without generating the current shot.
+- If a required significant reference is missing, request that specific image.
+- Do not replace an existing approved shot unless the user explicitly says Redo.
+- Preserve continuity with the latest approved generated shot.
+- Generate still keyframes only unless this Master Script explicitly authorizes Flow or dedicated motion.
+- For Part 2 Shot 2E, generate only the clean Flow start frame first; do not add bubbles, captions, arrows, subtitles, or audio to that image.
+
+
+==================================================
+FINAL VALIDATION
+==================================================
+
+REVIEW PASS 1 — Narrative / Visual / Continuity: PASSED
+- Every supplied Speechma narration phrase is covered exactly once and in order.
+- Visuals support the supplied narration and Chapter 3 story beats.
+- No significant new character is invented without a reference.
+- No unapproved dialogue or thought text is invented.
+- Shared GOH invitation continuity is preserved.
+- Mira, grandfather, sword, locations, and thug extras use the finalized Library references.
+- Flow remains selective, silent, text-free, and limited to one action shot.
+
+REVIEW PASS 2 — Timing / CapCut / Production: PASSED
+- Part 1 duration: 92.352 seconds.
+- Part 2 duration: 87.768 seconds.
+- Part 3 duration: 91.632 seconds.
+- Combined duration: 271.752 seconds.
+- Shot local timestamps are continuous within every part.
+- Cumulative timestamps are continuous across all three parts.
+- No unexplained gaps or overlaps.
+- Every shot has exactly one asset decision.
+- Every shot has numeric CapCut Scale / X / Y keyframes.
+- Every keyframe falls within its shot duration.
+- Impact shake is used only on the close-range fight impact shot.
+- Output filenames are unique and follow the Video 4 / Part / Shot convention.
+- The script is independently usable in a future MangaGlide shot-generation chat.
+Audio boundary verification: PASSED — Part end; MP3 ends in detected trailing silence.
+Validation status: READY

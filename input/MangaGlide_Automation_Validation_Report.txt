@@ -1,0 +1,59 @@
+MANGAGLIDE — AUTOMATION VALIDATION REPORT
+Video 4 — The God of High School Episode 3
+
+PASS 1 — COMPLETENESS AUDIT: PASSED
+- Total shots: 27
+- Shots ready for automation: 27
+- Shots requiring correction: 0
+- NEW_IMAGE shots: 26
+- FLOW_IMAGE shots: 1
+- REUSE_IMAGE shots: 0
+- Mandatory approved assets: 8
+- Python-accessible approved asset files: 8/8
+- Missing reference files: NONE
+- Unapproved assets: NONE
+- Standalone visual prompts: PRESENT for all shots
+- Negative constraints: PRESENT for all shots
+- 16:9 requirement: PRESENT for all NEW_IMAGE/FLOW_IMAGE prompts
+- CapCut numeric keyframes: PRESENT for all shots
+
+PASS 2 — CONSISTENCY AUDIT: PASSED
+- MP3 durations verified with ffprobe: Part 1 92.352s; Part 2 87.768s; Part 3 91.632s; combined 271.752s.
+- Frame-authoritative total: 8153 frames = 04:31:23 at 30 fps.
+- All internal shot boundaries were checked against the actual MP3 waveforms using silence detection (-35 dB, minimum 0.25 s).
+- Result: every internal shot boundary lies inside a detected silent gap; no boundary cuts through spoken narration.
+- Shot intervals are start-inclusive/end-exclusive and continuous with no frame gaps or overlaps.
+- Narration order and wording preserved from the approved Video 4 script / supplied Speechma transcript.
+- Production types normalized to NEW_IMAGE / FLOW_IMAGE / REUSE_IMAGE.
+- The one FLOW_IMAGE shot retains a clean, text-free start-frame requirement and separate Flow instructions.
+- Shared GOH invitation continuity preserved; Mira uses the same official invitation design as Mori and Daewi.
+- Extra/thug appearance rule preserved: ordinary/rough-looking, not beautified or hero-coded.
+- Original approved CapCut motion intent preserved; times converted to frame-compatible keyframes.
+- 0.20-second dissolves normalized to 6 frames. Final 0.35-second hold normalized to 11 frames (0.367 s) because frame-authoritative editing cannot represent half a frame.
+
+JSON VALIDATION
+- MangaGlide_Master_Shot_Script_AUTOMATION.json: PASSED
+- MangaGlide_Approved_Asset_Registry.json: PASSED
+- Validation errors: 0
+
+BLOCKERS
+- NONE. All mandatory approved reference images required by this Video 4 shot set are physically available to Python at the paths listed in the Asset Registry.
+- Operational note, not a blocker: the Python/OpenAI Image API runner still needs normal runtime configuration such as API credentials and an output directory. FLOW_IMAGE Shot 2E requires a later Google Flow animation step after its OpenAI-generated clean start frame.
+
+FINAL READINESS DECISION
+READY FOR PYTHON AUTOMATION — All required data is validated, and every mandatory approved asset image is accessible.
+
+
+CHARACTER MODE UPDATE VALIDATION
+- ACTOR_YOO_MIRA_NORMAL: APPROVED and Python file available.
+- ACTOR_YOO_MIRA_FUNNY: APPROVED (Funny Option 3) and Python file available.
+- ACTOR_YOO_MIRA_RAGE: APPROVED and Python file available.
+- All 27 shots retain original timing, narration, production type, and CapCut motion.
+- Yoo Mira mode assignments are explicit per shot.
+- FUNNY mode is limited to clearly comedic beats.
+- RAGE mode is limited to the delinquent confrontation/fight sequence.
+- NORMAL mode remains the default.
+- No timing, audio, story, prop, location, or transition values were changed.
+- JSON parses successfully.
+- Missing Mira mode reference files: NONE.
+

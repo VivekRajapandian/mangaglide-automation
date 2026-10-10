@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.1-mira-emotion-modes",
+  "project": "MangaGlide",
+  "series": "The God of High School",
+  "video_number": 4,
+  "approval_and_availability_are_separate": true,
+  "assets": [
+    {
+      "reference_id": "ACTOR_YOO_MIRA_NORMAL",
+      "identity_group": "ACTOR_YOO_MIRA",
+      "emotion_mode": "NORMAL",
+      "asset_name": "Yoo Mira — Normal Mode",
+      "asset_type": "CHARACTER",
+      "approval_status": "APPROVED",
+      "approval_designation": "Option 4 — FINAL / NORMAL",
+      "approved_filename": "ACTOR_YOO_MIRA_NORMAL.png",
+      "library_path": "/MangaGlide/Video 4/Characters/ACTOR_YOO_MIRA_NORMAL.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_NORMAL.png",
+      "design_description": "Yoo Mira NORMAL mode. This is the exact approved Option 4 character identity: same approved face, glasses, hair colour, clothing colours, body proportions, sword-user characteristics, and MangaGlide manhwa rendering style.",
+      "continuity_rules": [
+        "This mode must remain the same underlying Yoo Mira identity.",
+        "Use NORMAL mode only. Preserve the exact approved Option 4 identity. Do not chibi-shrink, caricature, rage-distort, redesign, beautify, or drift toward the source-panel face.",
+        "Do not change approved hair colour, glasses, clothing identity, or character-recognition cues."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "1A",
+        "1D",
+        "1E",
+        "1H",
+        "1I",
+        "2A",
+        "2B",
+        "3A",
+        "3B",
+        "3C",
+        "3G",
+        "3H",
+        "3I"
+      ]
+    },
+    {
+      "reference_id": "ACTOR_YOO_MIRA_FUNNY",
+      "identity_group": "ACTOR_YOO_MIRA",
+      "emotion_mode": "FUNNY",
+      "asset_name": "Yoo Mira — Funny Mode",
+      "asset_type": "CHARACTER",
+      "approval_status": "APPROVED",
+      "approval_designation": "Funny Option 3 — FINAL",
+      "approved_filename": "ACTOR_YOO_MIRA_FUNNY.png",
+      "library_path": "/MangaGlide/Video 4/Characters/ACTOR_YOO_MIRA_FUNNY.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_FUNNY.png",
+      "design_description": "Yoo Mira FUNNY mode, finalized from Funny Option 3. Same Yoo Mira identity transformed into an anime/manga comedic mini/chibi presentation: shortened small-body proportions, exaggerated readable comedic expression, while preserving her identifying hair colour/style cues, glasses, clothing palette, and recognizable character identity.",
+      "continuity_rules": [
+        "This mode must remain the same underlying Yoo Mira identity.",
+        "Use FUNNY mode only. Keep her recognizably the same approved Yoo Mira. Do not turn her into a different child/person, do not change hair colour, glasses, clothing identity, or core facial recognition cues. Do not use realistic rage anatomy or glamorous main-character posing.",
+        "Do not change approved hair colour, glasses, clothing identity, or character-recognition cues."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "1B",
+        "1C",
+        "1F",
+        "1G",
+        "3D",
+        "3E",
+        "3F"
+      ]
+    },
+    {
+      "reference_id": "ACTOR_YOO_MIRA_RAGE",
+      "identity_group": "ACTOR_YOO_MIRA",
+      "emotion_mode": "RAGE",
+      "asset_name": "Yoo Mira — Rage Mode",
+      "asset_type": "CHARACTER",
+      "approval_status": "APPROVED",
+      "approval_designation": "RAGE — FINAL",
+      "approved_filename": "ACTOR_YOO_MIRA_RAGE.png",
+      "library_path": "/MangaGlide/Video 4/Characters/ACTOR_YOO_MIRA_RAGE.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/ACTOR_YOO_MIRA_RAGE.png",
+      "design_description": "Yoo Mira RAGE mode. Same approved Yoo Mira identity with battle-intense anger: sharper eyes, furrowed brows, gritted/tense mouth where appropriate, stronger dramatic facial shading, and forceful combat energy, while preserving her hair, glasses, clothing colours, body proportions, and identity.",
+      "continuity_rules": [
+        "This mode must remain the same underlying Yoo Mira identity.",
+        "Use RAGE mode only. Preserve the exact same Yoo Mira identity, hair, glasses, clothing and proportions. Do not make her a different woman, monster, older adult, glamorous redesign, or chibi figure. Intensity may change; identity may not.",
+        "Do not change approved hair colour, glasses, clothing identity, or character-recognition cues."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "2C",
+        "2D",
+        "2E",
+        "2F",
+        "2G",
+        "2H",
+        "2I"
+      ]
+    },
+    {
+      "reference_id": "ACTOR_MIRA_GRANDFATHER",
+      "asset_name": "Mira Grandfather",
+      "asset_type": "CHARACTER",
+      "approval_status": "APPROVED",
+      "approval_designation": "FINAL",
+      "approved_filename": "ACTOR_MIRA_GRANDFATHER_FINAL.png",
+      "library_path": "/MangaGlide/Video 4/Characters/ACTOR_MIRA_GRANDFATHER_FINAL.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/ACTOR_MIRA_GRANDFATHER_FINAL.png",
+      "design_description": "Approved elderly martial-arts master with exact face, white topknot and beard, traditional clothing, proportions, stern/comedic demeanor, and MangaGlide manhwa rendering.",
+      "continuity_rules": [
+        "Preserve exact approved face, topknot, beard, clothing, proportions, and demeanor.",
+        "Do not modernize or beautify the design."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "1E",
+        "1F",
+        "1G",
+        "3E",
+        "3G"
+      ]
+    },
+    {
+      "reference_id": "ACTOR_MIRA_ESCORT",
+      "asset_name": "Mira Escort / Delinquent Side Character — Option 2",
+      "asset_type": "CHARACTER",
+      "approval_status": "APPROVED",
+      "approval_designation": "Option 2 — FINAL",
+      "approved_filename": "ACTOR_MIRA_ESCORT_Option_2.png",
+      "library_path": "/MangaGlide/Video 4/Characters/ACTOR_MIRA_ESCORT_Option_2.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/ACTOR_MIRA_ESCORT_Option_2.png",
+      "design_description": "Approved average/unattractive Japanese high-school delinquent side-character look with exact face, hair, school uniform/clothing, proportions, and MangaGlide manhwa rendering.",
+      "continuity_rules": [
+        "Preserve exact approved face, hair, clothing, and proportions.",
+        "Keep him average/rough-looking; never handsome, stylish, glamorous, or hero-coded."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": []
+    },
+    {
+      "reference_id": "LOCATION_MIRA_HOME_DOJO",
+      "asset_name": "Mira Home / Dojo",
+      "asset_type": "BUILDING",
+      "approval_status": "APPROVED",
+      "approval_designation": "FINAL",
+      "approved_filename": "LOCATION_MIRA_HOME_DOJO_FINAL.png",
+      "library_path": "/MangaGlide/Video 4/Locations/LOCATION_MIRA_HOME_DOJO_FINAL.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/LOCATION_MIRA_HOME_DOJO_FINAL.png",
+      "design_description": "Approved traditional home/dojo architecture, room layout, training details, materials, lighting, and MangaGlide manhwa rendering.",
+      "continuity_rules": [
+        "Preserve architecture, room layout, training details, materials, lighting, and rendering style."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "1E",
+        "1F",
+        "1G",
+        "1H",
+        "3G"
+      ]
+    },
+    {
+      "reference_id": "LOCATION_MIRA_CITY_STREET",
+      "asset_name": "Mira City Street",
+      "asset_type": "LOCATION",
+      "approval_status": "APPROVED",
+      "approval_designation": "FINAL",
+      "approved_filename": "LOCATION_MIRA_CITY_STREET_FINAL.png",
+      "library_path": "/MangaGlide/Video 4/Locations/LOCATION_MIRA_CITY_STREET_FINAL.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/LOCATION_MIRA_CITY_STREET_FINAL.png",
+      "design_description": "Approved ordinary city-street environment with exact street layout, storefront/building character, lighting, and MangaGlide manhwa rendering.",
+      "continuity_rules": [
+        "Preserve street layout, building/storefront character, lighting, and rendering style."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "2E",
+        "2F",
+        "2G",
+        "2H",
+        "3A"
+      ]
+    },
+    {
+      "reference_id": "OBJECT_MIRA_SWORD",
+      "asset_name": "Mira Wooden Bokken",
+      "asset_type": "PROP",
+      "approval_status": "APPROVED",
+      "approval_designation": "FINAL",
+      "approved_filename": "OBJECT_MIRA_SWORD_FINAL.png",
+      "library_path": "/MangaGlide/Video 4/Props/OBJECT_MIRA_SWORD_FINAL.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/OBJECT_MIRA_SWORD_FINAL.png",
+      "design_description": "Approved wooden bokken/practice sword with simple traditional shape and handle, modest guard, no shiny metal blade, and no fantasy ornamentation.",
+      "continuity_rules": [
+        "Keep the exact approved wooden practice-sword design.",
+        "Never turn it into a shiny metal katana or fantasy weapon."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "1A",
+        "1E",
+        "1H",
+        "1I",
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "2E",
+        "2F",
+        "2H",
+        "3A",
+        "3G",
+        "3I"
+      ]
+    },
+    {
+      "reference_id": "OBJECT_GOH_INVITATION",
+      "asset_name": "Standard God of High School Invitation",
+      "asset_type": "PROP",
+      "approval_status": "APPROVED",
+      "approval_designation": "SERIES STANDARD — FINAL",
+      "approved_filename": "OBJECT_GOH_INVITATION_STANDARD.png",
+      "library_path": "/MangaGlide/Video 4/Props/OBJECT_GOH_INVITATION_STANDARD.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/OBJECT_GOH_INVITATION_STANDARD.png",
+      "design_description": "Official series-standard GOH invitation shared with Jin Mori and Han Daewi; preserve black/gold branding, emblem, typography, material, shape, palette, and construction.",
+      "continuity_rules": [
+        "Reuse the same official invitation design for Mira.",
+        "Only angle, crop, lighting, hand position, wear, or scene condition may change."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "3B",
+        "3C",
+        "3D",
+        "3F",
+        "3H"
+      ]
+    },
+    {
+      "reference_id": "EXTRA_MIRA_THUGS",
+      "asset_name": "Mira Thug / Delinquent Extras",
+      "asset_type": "CHARACTER",
+      "approval_status": "APPROVED",
+      "approval_designation": "FINAL GROUP",
+      "approved_filename": "EXTRA_MIRA_THUGS_FINAL.png",
+      "library_path": "/MangaGlide/Video 4/Extras/EXTRA_MIRA_THUGS_FINAL.png",
+      "python_file_path": "/mnt/data/mangaglide_video4_assets/EXTRA_MIRA_THUGS_FINAL.png",
+      "design_description": "Approved ordinary/rough-looking high-school delinquent extras with varied faces and builds; intentionally visually secondary.",
+      "continuity_rules": [
+        "Keep extras ordinary/rough-looking and varied.",
+        "Do not make them handsome, stylish, glamorous, muscular-heroic, mysterious, or main-character coded."
+      ],
+      "file_available_to_python": true,
+      "availability_status": "AVAILABLE",
+      "used_by_shots": [
+        "2A",
+        "2B",
+        "2C",
+        "2D",
+        "2E",
+        "2F",
+        "2G",
+        "2H"
+      ]
+    }
+  ],
+  "character_identity_groups": {
+    "ACTOR_YOO_MIRA": {
+      "approved_modes": [
+        "ACTOR_YOO_MIRA_NORMAL",
+        "ACTOR_YOO_MIRA_FUNNY",
+        "ACTOR_YOO_MIRA_RAGE"
+      ],
+      "identity_rule": "All three are the same character. Mode-specific stylization may change only as defined by the approved mode reference."
+    }
+  }
+}
